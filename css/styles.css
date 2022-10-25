@@ -1,0 +1,7 @@
+h1 {
+    text-transform: uppercase;
+}
+.preview-card {
+    display: grid;
+    grid: 1fr 1fr 1fr;
+}
