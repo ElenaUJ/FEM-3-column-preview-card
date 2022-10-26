@@ -8,6 +8,7 @@ p {
     font-weight: 400;
 }
 .preview-card {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1000px;
 }
