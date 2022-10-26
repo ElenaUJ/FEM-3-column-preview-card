@@ -1,3 +1,7 @@
+* {
+    /* border and padding are included in width of element */
+    box-sizing: border-box;
+}
 h1 {
     font-family: 'Big Shoulders Display';
     font-weight: 700;
