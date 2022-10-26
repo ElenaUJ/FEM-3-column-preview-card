@@ -17,6 +17,7 @@ body {
     background-color: var(--background-color)
 }
 h1 {
+    color: var(--background-color);
     font-family: 'Big Shoulders Display';
     font-weight: 700;
     text-transform: uppercase;
