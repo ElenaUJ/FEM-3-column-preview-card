@@ -40,6 +40,9 @@ p {
 
 /* Component style
 -----------------------------------------------------------*/
+.preview-card__item {
+    padding: 40px;
+}
 .preview-card__item--Sedans {
     background-color: hsl(31, 77%, 52%);
 }
