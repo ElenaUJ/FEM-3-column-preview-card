@@ -10,5 +10,6 @@ p {
 .preview-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 200px auto 0 auto;
     width: 1000px;
 }
