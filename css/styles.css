@@ -3,10 +3,11 @@ h1 {
     font-weight: 700;
     text-transform: uppercase;
 }
-.preview-card {
-    display: grid;
-    grid: 1fr 1fr 1fr;
 p {
     font-family: 'Lexend Deca';
     font-weight: 400;
+}
+.preview-card {
+    display: flex;
+    flex-direction: row;
 }
