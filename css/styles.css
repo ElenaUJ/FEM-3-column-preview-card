@@ -25,6 +25,7 @@ h1 {
 p {
     color: hsla(0, 0%, 100%, 0.75);
     font-family: 'Lexend Deca';
+    font-size: 15px;
     font-weight: 400;
 }
 
