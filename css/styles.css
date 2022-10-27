@@ -84,3 +84,16 @@ p {
 .preview-card__item--luxury {
     background-color: var(--darker-cyan);
 }
+
+/* Media queries (layout adjustments for smaller screens)
+-----------------------------------------------------------*/
+@media all and (max-width: 900px) {
+    p {
+        padding-bottom: 15px;
+    }
+    .preview-card {
+        grid-template-columns: 1fr;
+        margin-top: 90px;
+        width: 320px;
+    }
+}
