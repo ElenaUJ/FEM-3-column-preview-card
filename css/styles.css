@@ -2,6 +2,9 @@
 -----------------------------------------------------------*/
 :root {
     --background-color: hsl(0, 0%, 95%);
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --darker-cyan: hsl(179, 100%, 13%);
 }
 
 /* Generic
@@ -63,12 +66,12 @@ p {
 .preview-card__item {
     padding: 40px;
 }
-    background-color: hsl(31, 77%, 52%);
 .preview-card__item--sedans {
+    background-color: var(--bright-orange)
 }
-    background-color: hsl(184, 100%, 22%);
 .preview-card__item--suvs {
+    background-color: var(--dark-cyan);
 }
-    background-color: hsl(179, 100%, 13%);
 .preview-card__item--luxury {
+    background-color: var(--darker-cyan);
 }
