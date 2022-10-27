@@ -73,7 +73,7 @@ p {
     color: var(--background-color);
 }
 .preview-card__item {
-    padding: 40px;
+    padding: 45px;
 }
 .preview-card__item--sedans {
     background-color: var(--bright-orange)
