@@ -41,6 +41,25 @@ p {
 
 /* Component style
 -----------------------------------------------------------*/
+.button {
+    background-color: var(--background-color);
+    border: none;
+    border-radius: 30px;
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    font-weight: 400;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.button--sedans {
+    color: var(--bright-orange);
+}
+.button--suvs {
+    color: var(--dark-cyan);
+}
+.button--luxury {
+    color: var(--darker-cyan);
+}
 .preview-card__item {
     padding: 40px;
 }
