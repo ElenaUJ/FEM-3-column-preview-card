@@ -66,6 +66,10 @@ p {
 .button--luxury {
     color: var(--darker-cyan);
 }
+.button:hover {
+    background-color: inherit;
+    color: var(--background-color);
+}
 .preview-card__item {
     padding: 40px;
 }
