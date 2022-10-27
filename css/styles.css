@@ -37,9 +37,11 @@ p {
 /* Object style (design patterns, such as layouts)
 -----------------------------------------------------------*/
 .preview-card {
+    border-radius: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 200px auto 0 auto;
+    overflow: hidden; /*clips everything that extends beyound border */
     width: 900px;
 }
 
