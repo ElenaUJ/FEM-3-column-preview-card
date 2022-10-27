@@ -44,12 +44,12 @@ p {
 .preview-card__item {
     padding: 40px;
 }
-.preview-card__item--Sedans {
     background-color: hsl(31, 77%, 52%);
+.preview-card__item--sedans {
 }
-.preview-card__item--SUVs {
     background-color: hsl(184, 100%, 22%);
+.preview-card__item--suvs {
 }
-.preview-card__item--Luxury {
     background-color: hsl(179, 100%, 13%);
+.preview-card__item--luxury {
 }
